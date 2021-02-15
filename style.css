@@ -21,7 +21,7 @@ header a {
   text-decoration: none;
   color: rgb(209, 97, 77);
   font-size: 1.4em;
-  padding: 1em;
+  padding-left: 1em;
 }
 
 header a:hover {
@@ -29,6 +29,33 @@ header a:hover {
 }
 
 .container {
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
+}
+
+/* ========= main ========= */
+
+.galery {
+  background: url("img/motorcicle.jpg");
+  background-size: cover;
+}
+
+.galery .container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  min-height: 70vh;
+}
+
+.galery h1 {
+  background-color: rgba(224, 114, 94, 0.616);
+  padding: 0.5em;
+  color: rgba(148, 26, 26, 0.822);
+}
+
+
+
+.decorLine {
+  border: 2px solid rgb(202, 202, 46);
+  display: inherit;
 }
